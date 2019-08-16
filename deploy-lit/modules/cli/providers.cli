@@ -1,0 +1,2 @@
+/subsystem=keycloak-server/:list-add(name=providers,value=module:com.swang.keycloak.fakesso)
+/subsystem=keycloak-server/:list-add(name=providers,value=module:com.swang.keycloak.userstorage)

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<module xmlns="urn:jboss:module:1.1" name="com.swang.keycloak.userstorage">
+
+    <resources>
+        <resource-root path="keycloak-property-user-storage-demo-0.0.1-SNAPSHOT.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="org.keycloak.keycloak-core"/>
+        <module name="org.keycloak.keycloak-server-spi"/>
+        <module name="org.jboss.log4j.logmanager"/>
+        <module name="org.keycloak.keycloak-common" />
+    </dependencies>
+</module>

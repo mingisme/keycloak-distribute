@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<module xmlns="urn:jboss:module:1.1" name="com.swang.keycloak.fakesso">
+
+    <resources>
+        <resource-root path="keycloak-share-token-authn-0.0.1-SNAPSHOT.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="org.keycloak.keycloak-core"/>
+        <module name="org.keycloak.keycloak-services"/>
+        <module name="org.keycloak.keycloak-server-spi"/>
+        <module name="org.keycloak.keycloak-server-spi-private"/>
+        <module name="javax.ws.rs.api"/>
+        <module name="org.keycloak.keycloak-common" />
+    </dependencies>
+</module>
