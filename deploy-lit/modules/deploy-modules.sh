@@ -17,3 +17,4 @@ bin/jboss-cli.sh --file=/opt/jboss/modules/cli/standalone-ha-configuration.cli
 rm -rf /opt/jboss/keycloak/standalone/configuration/standalone_xml_history
 
 touch /opt/jboss/keycloak/standalone/configuration/example-users.properties
+
