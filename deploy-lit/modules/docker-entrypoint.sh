@@ -213,6 +213,8 @@ fi
 /opt/jboss/tools/jgroups.sh
 /opt/jboss/tools/autorun.sh
 
+/opt/jboss/keycloak/bin/jboss-cli.sh --file="/opt/jboss/modules/cli/cluster.cli" >& /dev/null
+
 ##################
 # Start Keycloak #
 ##################
